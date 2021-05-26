@@ -7,17 +7,16 @@ Ex: Reverse("ABCD"); ==> DCBA
  */
 public class StringReverse05 {
     public static void main(String[] args) {
-
+        String data = "abcd";
+        System.out.println(reverseString(data));
     }
-public static String reverseString(String str) {
+
+    public static String reverseString(String str) {
         String str2 = "";
-    for (int i = str.length()-1; i < 0; i--) {
-        str2 += "" + str.charAt(i);
+        for (int i = str.length() - 1; i >= 0; i--) {
+            str2 += "" + str.charAt(i);
+        }
+        return str2;
     }
-    return str2;
-}
-
-
-
 
 }
