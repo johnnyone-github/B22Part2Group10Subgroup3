@@ -6,7 +6,7 @@ Ex: Reverse("ABCD"); ==> DCBA
  */
 public class StringReverse05 {
     public static void main(String[] args) {
-        String data = "abcd";
+        String data = "ABCDEFG";
         System.out.println(reverseString(data));
     }
 
