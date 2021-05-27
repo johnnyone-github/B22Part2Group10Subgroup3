@@ -40,16 +40,13 @@ public class FindUnique {
 
     public static String Unique(String str) {
 
-        String result ="";
+        String result = "";
 
-        for(String each : str.split(""))
+        for (String each : str.split(""))
 
-            result +=(  (Collections.frequency(Arrays.asList(str.split("")), each)) ==1 ) ? each : "";
-
-
+            result += ((Collections.frequency(Arrays.asList(str.split("")), each)) == 1) ? each : "";
 
         return result;
-
     }
 
 }
