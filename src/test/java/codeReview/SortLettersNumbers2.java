@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class SortLettersNumbers2 {
     public static void main(String[] args) {
-        String str = "sa324vk804sm";
+        String str = "sa324vk804s";
         String str2 = str;
         String str3 = "";
         int i, j;
