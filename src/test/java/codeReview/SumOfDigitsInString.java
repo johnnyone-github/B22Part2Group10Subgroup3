@@ -24,7 +24,7 @@ public class SumOfDigitsInString {
 
         for (int i = 0; i <= str.length() - 1; i++) {
 
-            if(i== str.length()-1){
+            if(Character.isDigit(str.charAt(i)) && i== str.length()-1){
                 sum += Integer.parseInt(str.charAt(i)+"");
                 break;
             }
