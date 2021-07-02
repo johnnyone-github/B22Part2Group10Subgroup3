@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigurationReader2 {
+public class ConfigurationReader {
     private static Properties prop = new Properties();
     static {
         try {
@@ -16,7 +16,7 @@ public class ConfigurationReader2 {
             System.out.println(" Input stream didn't work");
         }
     }
-    public static String pullKeyword(String keyword){
+    public static String getProperty(String keyword){
         return prop.getProperty(keyword);
     }
 }
