@@ -22,7 +22,7 @@ public class Numbers_PrintConsecutiveNumbers {
             }
             System.out.println("");
         }
-//comment
+
     }
 }
 
